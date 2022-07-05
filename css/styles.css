@@ -1,0 +1,333 @@
+:root {
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* text color */
+    --main-txt-cl: #212121;
+    --secondary-txt-cl: #757575;
+    --logo-blue-txt-cl: #2196F3;
+    --logo-black-txt-cl: #000000;
+    --logo-white-txt-cl: #FFFFFF;
+    /* bg color */
+    --dark-bg-cl: #2F303A;
+    --light-bg-cl: #F5F4FA;
+    /* others */
+}
+
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+}
+
+/* reset styles */
+.link-footer, .contacts-link,
+.link,
+.link-cards {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header section */
+.logo-link {
+    font-family: var(--secondary-font);
+    color: var(--logo-blue-txt-cl);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent {
+    color: var(--logo-black-txt-cl);
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl)
+}
+
+.nav-item-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--logo-blue-txt-cl);
+    text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+.contacts-link,
+.contacts-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--logo-blue-txt-cl)
+}
+.contacts-link-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl)
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+.contacts-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl)
+}
+
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--dark-bg-cl);
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-txt-cl);
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl)
+}
+
+/* Чем мы занимаемся */
+.benefits-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl)
+}
+
+/* Наша команда */
+.team {
+    background-color: var(--light-bg-cl);
+}
+
+.team-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl)
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl)
+}
+
+.team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl)
+}
+
+/* Футер */
+.footer {
+    background-color: var(--dark-bg-cl);
+}
+
+.logo-accent-footer {
+    color: var(--logo-white-txt-cl);
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--logo-white-txt-cl)
+}
+
+.footer-text:hover,
+.footer-text:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+.link-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+.footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+/* Prtfolio*/
+
+.nav-item-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--logo-blue-txt-cl);
+    text-decoration: none;
+}
+
+.contacts-link-portfolio:hover,
+.contacts-link-portfolio:focus {
+    color: var(--logo-blue-txt-cl);
+}
+
+/* Портфолио кнопки */
+/* .visually-hidden, */
+
+
+
+.portfolio-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+    background: #EEEEEE;
+}
+.portfolio-list,
+ .portfolio-btn, {
+    color: var(--main-txt-cl);
+ }
+.current {
+    font-family: 'Roboto';
+    font-style: normal;
+    color:#FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
+    border: none;
+}
+ 
+    
+        
+        
+
+ .portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: var(--logo-blue-txt-cl);
+
+}
+
+.portfolio-item-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+.title {
+    display: none;
+}
+
+.portfolio-cards-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl)
+}
+
+.portfolio-cards-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-cl)
+}
+.link-cards:hover,
+.link-cards:focus {
+color: var(--logo-blue-txt-cl);
+}
