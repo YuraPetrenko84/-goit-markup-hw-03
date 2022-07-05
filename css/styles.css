@@ -260,8 +260,6 @@ body {
 }
 
 /* Портфолио кнопки */
-/* .visually-hidden, */
-
 
 
 .portfolio-btn{
@@ -280,7 +278,8 @@ body {
  .portfolio-btn, {
     color: var(--main-txt-cl);
  }
-.current {
+
+ .current {
     font-family: 'Roboto';
     font-style: normal;
     color:#FFFFFF;
@@ -289,24 +288,11 @@ body {
     border: none;
 }
  
-    
-        
-        
-
- .portfolio-btn:hover,
+.portfolio-btn:hover,
 .portfolio-btn:focus {
     background: var(--logo-blue-txt-cl);
 
 }
-
-.portfolio-item-all {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
 
 .title {
     display: none;
