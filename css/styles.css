@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+} 
+
 :root {
     /* fonts */
     --main-font: 'Roboto', sans-serif;
@@ -16,6 +20,7 @@
 
 
 body {
+    
     font-family: var(--main-font);
     color: var(--main-txt-cl);
 }
@@ -28,11 +33,72 @@ body {
     color: currentColor;
 }
 
+
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
 }
 
 /* Header section */
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+.header-container {
+    display: flex;
+    
+}
+ .link {
+    display: flex;
+}
+ .logo-link {
+    margin-right: 93px;
+    align-items: center;
+}
+ 
+ .nav-list {
+   
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
+}
+
+.nav-item-contacts {
+    margin-right: 331px;
+}   
+.contacts-header {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    margin-right: 50px;
+}
+.contacts-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    
+}
 .logo-link {
     font-family: var(--secondary-font);
     color: var(--logo-blue-txt-cl);
@@ -101,8 +167,19 @@ body {
     color: var(--logo-blue-txt-cl);
 }
 
+
 /* Hero */
 .hero {
+   
+}
+.hero-text {
+}
+.btn {
+    
+}
+.hero {
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--dark-bg-cl);
 }
 
@@ -277,7 +354,7 @@ body {
 .portfolio-list,
  .portfolio-btn, {
     color: var(--main-txt-cl);
- }
+}
 
  .current {
     font-family: 'Roboto';
