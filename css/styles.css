@@ -49,8 +49,8 @@ h1,h2,h3,h4,h5,h6,p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 2px solid red;
-    outline-offset: -2px; */
+    outline: 2px solid red;
+    outline-offset: -2px; 
 }
 .header-container {
     display: flex;
@@ -276,6 +276,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Наша команда */
 .team {
+
     height: 648px;
     background-color: var(--light-bg-cl);
 }
@@ -332,7 +333,9 @@ h1,h2,h3,h4,h5,h6,p {
 .footer {
     background-color: var(--dark-bg-cl);
 }
-
+.logo-link {
+    padding-top: 60px;
+}
 .logo-accent-footer {
     color: var(--logo-white-txt-cl);
 }
