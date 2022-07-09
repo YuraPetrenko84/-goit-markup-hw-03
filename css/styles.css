@@ -33,7 +33,6 @@ body {
     color: currentColor;
 }
 
-
 .list {
     list-style: none;
     padding: 0;
@@ -50,7 +49,6 @@ h1,h2,h3,h4,h5,h6,p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
     outline: 2px solid red;
     outline-offset: -2px;
 }
@@ -66,13 +64,11 @@ h1,h2,h3,h4,h5,h6,p {
     align-items: center;
 }
  
- .nav-list {
-   
+.nav-list {
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
+
 .nav-item {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -90,7 +86,6 @@ h1,h2,h3,h4,h5,h6,p {
 .contacts-link {
     padding-top: 32px;
     padding-bottom: 32px;
-
     margin-right: 50px;
 }
 .contacts-tel {
@@ -169,11 +164,10 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 /* Hero */
-.hero {
-   
-}
+
 .container-hero {
  height: 600px;
+ 
 }
 
 .hero {
@@ -200,6 +194,9 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0 auto;
 }
 .btn {
+    max-width: 250px;
+    min-width: 200px;
+    max-height: 50px;
     padding-top: 10px;
     padding-right: 32px;
     padding-bottom: 10px;
@@ -225,8 +222,22 @@ h1,h2,h3,h4,h5,h6,p {
 .btn:focus {
     cursor: pointer;
 }
-
+/* Наши преимущества */
+.advantage-container {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.advantage-list {
+    display: flex;
+    gap: 30px;
+}
+.advantage-list:last-child {
+    margin-right: 0;
+}
 .advantage-title {
+    max-width: 270px;
+    min-width: 250px;
+    max-height: 16px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -236,6 +247,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .advantage-text {
+    max-width: 270px;
+    min-width: 250px;
+    max-height: 75px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -245,11 +259,19 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Чем мы занимаемся */
 .benefits-text {
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl)
+}
+.benefits-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
 }
 
 /* Наша команда */
@@ -258,13 +280,18 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .team-text {
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl)
 }
-
+.team-list {
+    display: flex;
+    gap: 30px;
+}
 .team-name {
     font-weight: 500;
     font-size: 16px;
