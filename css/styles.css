@@ -276,11 +276,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Наша команда */
 .team {
+    
     background-color: var(--light-bg-cl);
 }
 
+
 .team-text {
-    
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -289,6 +292,7 @@ h1,h2,h3,h4,h5,h6,p {
     color: var(--main-txt-cl)
 }
 .team-list {
+    
     display: flex;
     gap: 30px;
 }
