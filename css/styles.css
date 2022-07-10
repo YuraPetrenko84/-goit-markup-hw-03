@@ -1,5 +1,10 @@
 html {
     box-sizing: border-box;
+    position: relative;
+        width: 1600px;
+        height: 2349px;
+    
+        background: #FFFFFF;
 } 
 
 :root {
@@ -49,8 +54,8 @@ h1,h2,h3,h4,h5,h6,p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid red;
-    outline-offset: -2px; 
+    /* outline: 2px solid red;
+    outline-offset: -2px;  */
     
 }
 .container-styles {
@@ -283,7 +288,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* Наша команда */
 .team {
 
-    height: 648px;
+   height: 648px; 
     background-color: var(--light-bg-cl);
 }
 
@@ -299,9 +304,11 @@ h1,h2,h3,h4,h5,h6,p {
     color: var(--main-txt-cl)
 }
 .team-list {
-    
+    width: 270px;
+    height: 368px;
     display: flex;
     gap: 30px;
+    
 }
 .team-items {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -448,7 +455,7 @@ h1,h2,h3,h4,h5,h6,p {
     padding-bottom: 50px;
     width: 611px;
     height: 54px;
-    margin-left: 280px;
+    padding-left: 280px;
 }
 
 .portfolio-btn-curent {
@@ -544,6 +551,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .portfolio-cards-title {
+    padding-left: 24px;
+    max-width: 350px;
+    min-width: 340px;
     width: 322px;
     height: 36px;
     font-weight: 700;
@@ -554,6 +564,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .portfolio-cards-text {
+    padding-left: 24px;
+    padding-bottom: 4px;
     width: 322px;
     height: 30px;
     font-weight: 400;
@@ -580,5 +592,16 @@ color: var(--logo-blue-txt-cl);
 .portfolio-cards-img{
     width: 370px;
     height: 294px;
+    padding-bottom: 20px;
 }
 
+.item-cards {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.portfolio-cards-list {
+    padding-bottom: 94px;
+}
