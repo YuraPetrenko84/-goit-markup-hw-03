@@ -31,10 +31,10 @@
             <li>
               <a class="nav-item link nav-item-portfolio" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="nav-item link" href="">Контакты</a></li>
+            <li><a class="nav-item link nav-item-portfolio-contacts" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contacts-header list">
+        <ul class="contacts-header list contacts-header-portfolio">
           <li>
             <a class="contacts-link-portfolio link" href="info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -45,16 +45,30 @@
     <main>
       <!-- Портфолио кнопки -->
       <section class="portfolio-button">
-        <div class="container">
-          <ul class="portfolio-list list">
-            <li>
-              <button type="button" class="portfolio-btn current">Все</button>
-            </li>
-            <li><button type="button" class="portfolio-btn">Веб-сайты</button></li>
-            <li><button type="button" class="portfolio-btn">Приложения</button></li>
-            <li><button type="button" class="portfolio-btn">Дизайн</button></li>
-            <li><button type="button" class="portfolio-btn">Маркетинг</button></li>
-          </ul>
+        <div class="container container-portfolio">
+          <div class="portfolio-button-item">
+            <ul class="portfolio-list list">
+              <li>
+                <button type="button" class="portfolio-btn current portfolio-btn-curent">
+                  Все
+                </button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-btn portfolio-btn-site">Веб-сайты</button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-btn portfolio-btn-app">Приложения</button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-btn portfolio-btn-design">Дизайн</button>
+              </li>
+              <li>
+                <button type="button" class="portfolio-btn portfolio-btn-marketing">
+                  Маркетинг
+                </button>
+              </li>
+            </ul>
+          </div>
           <h1 class="title">Preview</h1>
           <ul class="portfolio-cards-list list">
             <li class="item-cards">
@@ -171,7 +185,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo-link link" href="" lang="en"
+        <a class="logo-link link logo-link-footer" href="" lang="en"
           >Web<span class="logo-accent-footer">Studio</span></a
         >
         <address>

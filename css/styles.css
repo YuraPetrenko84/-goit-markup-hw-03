@@ -51,6 +51,11 @@ h1,h2,h3,h4,h5,h6,p {
     margin-right: auto;
     outline: 2px solid red;
     outline-offset: -2px; 
+    
+}
+.container-styles {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .header-container {
     display: flex;
@@ -60,6 +65,7 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
 }
  .logo-link {
+    
     margin-right: 93px;
     align-items: center;
 }
@@ -302,12 +308,8 @@ h1,h2,h3,h4,h5,h6,p {
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
 } 
-.team-photo {
-    
-}
-.team-name-post {
-     
-}
+
+
 .team-name {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -333,14 +335,22 @@ h1,h2,h3,h4,h5,h6,p {
 .footer {
     background-color: var(--dark-bg-cl);
 }
-.logo-link {
-    padding-top: 60px;
+.logo-link-footer {
+    width: 145px;
+    height: 31px;
+  padding-top: 60px;
+   padding-bottom: 20px; 
 }
 .logo-accent-footer {
     color: var(--logo-white-txt-cl);
 }
 
+.footer-list {
+    width: 231px;
+    height: 81px;
+}
 .footer-text {
+    padding-bottom: 9px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -356,6 +366,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .link-footer {
+    padding-bottom: 9px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -380,6 +391,16 @@ h1,h2,h3,h4,h5,h6,p {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-text, 
+.link-footer,
+.footer-tel {
+    width: 231px;
+    height: 21px;
+}
+
+
+
+
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--logo-blue-txt-cl);
@@ -396,6 +417,18 @@ h1,h2,h3,h4,h5,h6,p {
     text-decoration: none;
 }
 
+.nav-item-portfolio-contacts {
+    margin: 0;
+}
+.contacts-header-portfolio {
+    margin-left: 331px;
+   
+}
+.contacts-link-portfolio {
+    padding-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .contacts-link-portfolio:hover,
 .contacts-link-portfolio:focus {
     color: var(--logo-blue-txt-cl);
@@ -403,8 +436,69 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Портфолио кнопки */
 
+.container-portfolio {
+    
+}
 
+.portfolio-list {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    width: 611px;
+    height: 54px;
+    margin-left: 280px;
+}
+
+.portfolio-btn-curent {
+    width: 73px;
+    height: 38px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+}
+
+.portfolio-btn-site {
+    max-width: 200px;
+    min-width: 130px;
+    width: 128px;
+    height: 38px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+}
+
+.portfolio-btn-app {
+    width: 145px;
+    height: 38px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+}
+
+.portfolio-btn-design {
+    width: 103px;
+    height: 38px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+}
+
+.portfolio-btn-marketing {
+    width: 130px;
+    height: 38px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;;
+}
 .portfolio-btn{
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -414,7 +508,7 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.03em;
     border: none;
     border-radius: 4px;
-    background: #EEEEEE;
+    background: #F5F4FA;
 }
 .portfolio-list,
  .portfolio-btn, {
@@ -437,10 +531,21 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .title {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .portfolio-cards-title {
+    width: 322px;
+    height: 36px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -449,6 +554,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .portfolio-cards-text {
+    width: 322px;
+    height: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -459,3 +566,19 @@ h1,h2,h3,h4,h5,h6,p {
 .link-cards:focus {
 color: var(--logo-blue-txt-cl);
 }
+
+
+
+
+
+.portfolio-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portfolio-cards-img{
+    width: 370px;
+    height: 294px;
+}
+
