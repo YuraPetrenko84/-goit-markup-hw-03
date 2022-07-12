@@ -67,7 +67,6 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
 }
  .logo-link {
-    
     padding-right: 93px;
     align-items: center;
 }
@@ -93,13 +92,11 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .contacts-link {
-    
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 50px;
 }
 .contacts-tel {
-
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -176,11 +173,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Hero */
 
-.container-hero {
- /* height: 600px; */
- 
-}
-
 .hero {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -193,7 +185,6 @@ h1,h2,h3,h4,h5,h6,p {
 .hero-text {
     margin-top: 106px;
     margin-bottom: 30px;
-    /* padding-top: 200px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -229,8 +220,6 @@ h1,h2,h3,h4,h5,h6,p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: transparent;
-    
-    
 }
 
 .btn:hover,
@@ -274,7 +263,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Чем мы занимаемся */
 .benefits-text {
-    
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -292,8 +280,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* Наша команда */
 .team {
     padding-top: 94px;
-        padding-bottom: 94px;
-    /* height: 648px;  */
+    padding-bottom: 94px;
     background-color: var(--light-bg-cl);
 }
 
@@ -313,14 +300,13 @@ h1,h2,h3,h4,h5,h6,p {
     height: 368px;
     display: flex;
     gap: 30px;
-    
 }
+
 .team-items {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
 } 
-
 
 .team-name {
     padding-top: 30px;
@@ -411,9 +397,6 @@ h1,h2,h3,h4,h5,h6,p {
     width: 231px;
     height: 21px;
 }
-
-
-
 
 .footer-tel:hover,
 .footer-tel:focus {
