@@ -1,7 +1,3 @@
-html {
-    /* box-sizing: border-box; */
-    
-} 
 
 :root {
     /* fonts */
@@ -21,7 +17,6 @@ html {
 
 
 body {
-    
     font-family: var(--main-font);
     color: var(--main-txt-cl);
 }
@@ -39,6 +34,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
@@ -50,24 +46,25 @@ h1,h2,h3,h4,h5,h6,p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 2px solid red;
-    outline-offset: -2px;  */
-    
 }
 .container-styles {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.page-header {
+border-bottom: 1px solid #ECECEC;
+}
 .header-container {
     display: flex;
-    border-bottom: 1px solid #ECECEC;
     
 }
  .link {
     display: flex;
 }
- .logo-link {
-    padding-right: 93px;
+ 
+.logo-link {
+    margin-right: 93px;
     align-items: center;
 }
  
@@ -79,14 +76,15 @@ h1,h2,h3,h4,h5,h6,p {
 .nav-item {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .nav-item-contacts {
-    padding-right: 331px;
+    margin-right: 0;
 }   
+
 .contacts-header {
-    margin: 0 auto;
+    margin-left: 331px;
     display: flex;
     align-items: center;
 }
@@ -94,14 +92,14 @@ h1,h2,h3,h4,h5,h6,p {
 .contacts-link {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-right: 50px;
+    margin-right: 50px;
 }
+
 .contacts-tel {
     padding-top: 32px;
     padding-bottom: 32px;
-
-    
 }
+
 .logo-link {
     font-family: var(--secondary-font);
     color: var(--logo-blue-txt-cl);
@@ -262,6 +260,11 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /* Чем мы занимаемся */
+.benefits {
+    padding-bottom: 94px;
+}
+
+
 .benefits-text {
     margin-bottom: 50px;
     font-weight: 700;
@@ -274,7 +277,6 @@ h1,h2,h3,h4,h5,h6,p {
 .benefits-list {
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 /* Наша команда */
@@ -284,6 +286,10 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: var(--light-bg-cl);
 }
 
+.team-name-post {
+padding-top: 30px;
+padding-bottom: 30px;
+}
 
 .team-text {
     margin-bottom: 50px;
@@ -308,7 +314,7 @@ h1,h2,h3,h4,h5,h6,p {
 } 
 
 .team-name {
-    padding-top: 30px;
+   
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -319,7 +325,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .team-post {
-    padding-bottom: 30px;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -349,7 +355,7 @@ h1,h2,h3,h4,h5,h6,p {
     height: 81px;
 }
 .footer-text {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -365,7 +371,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .link-footer {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -416,12 +422,12 @@ h1,h2,h3,h4,h5,h6,p {
     text-decoration: none;
 }
 .nav-item-portfolio-contacts {
-    padding-right: 331px;
+    margin: 0 auto;
 }
 
 
 .contacts-link-portfolio {
-    padding-right: 50px;
+    margin-right: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -442,7 +448,7 @@ h1,h2,h3,h4,h5,h6,p {
     display:flex;
     justify-content: center ;
     gap: 8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
    
 }
 
